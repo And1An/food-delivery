@@ -187,8 +187,8 @@ ol {
 }
 
 main {
-    background-color: #9093A6;
-    background-image: url(./img/main-background.png);
+    background-color: #F7F7F7  ;
+    background-image: url(../img/main-background.png);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: 802px -10px;
