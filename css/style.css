@@ -727,3 +727,32 @@ main {
   .rest__list__item:hover{
     box-shadow: 1px 2px 35px #9194a4
   }
+
+
+
+  .bar,
+.bar1,
+.bar2 {
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: 6px 0;
+    border-radius: 5px;
+    transition: .5s;
+    background-color: #9093A6;
+}
+
+
+.switch .bar{
+    transform: translate(0, 11px) rotate(-45deg);
+    
+}
+
+.switch .bar1{
+    opacity: 0;
+    width: 0;
+}
+.switch .bar2{
+    transform: translate(0, -11px) rotate(45deg);
+    
+}

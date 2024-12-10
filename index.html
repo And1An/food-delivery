@@ -30,9 +30,13 @@
                         </svg>
                         <p class="nav__text">0</p>
                     </li>
-                    <li class="nav__list__item item__burger"> <svg class="nav__burger" width="24" height="24">
-                            <use href="./symbol-defs.svg#icon-menu"></use>
-                        </svg></li>
+                    <li class="nav__list__item item__burger">
+                        <div class="burger-menu" onClick="myFunction(this)">
+                            <div class="bar"></div>
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                        </div>
+                    </li>
 
                 </ul>
             </nav>
@@ -328,6 +332,11 @@
 
         </div>
     </footer>
+    <script>
+    function myFunction(x){
+        x.classList.toggle('switch');
+    }
+</script>
 
 </body>
 
