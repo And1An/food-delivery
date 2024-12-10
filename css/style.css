@@ -722,3 +722,8 @@ main {
     display: flex;
     flex-direction: column;
   }
+
+
+  .rest__list__item:hover{
+    box-shadow: 1px 2px 35px #9194a4
+  }
